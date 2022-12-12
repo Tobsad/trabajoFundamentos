@@ -11,7 +11,7 @@ console.log(ingredientes);
 
 for (let i = 0; i < cantidad; i++) {
     let n=-1;
-    console.log(`Plato : ${ingredientes[ingredientes.length-i]}`);
+    console.log(`Plato : ${ingredientes[n-i]}`);
   }
 
 
